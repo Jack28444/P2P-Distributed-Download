@@ -26,7 +26,8 @@ you can also run the client or the server independently in dev mode
 Build the docker images
 
 ```./build_client.sh ```
-```./build_server.sh```
+
+```./build_server.sh ```
 
 Launch a signaling server and 3 clients
 
