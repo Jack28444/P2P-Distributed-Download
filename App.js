@@ -156,7 +156,7 @@ function App() {
                 <Navbar.Brand>
                     <Navbar.Item renderAs="a" href="#">
                         <img src={logo}
-                             alt="Pic Share"/>
+                             alt="file Share"/>
                     </Navbar.Item>
                     <Navbar.Burger/>
                 </Navbar.Brand>
@@ -175,7 +175,7 @@ function App() {
                     }
                     {(sending || receiving || sentRequest) &&
                     <Loader
-                        text={sending ? "the picture is being sent, please wait..." : sentRequest ? "Wait till user accepts your request" : "receiving picture, please wait... "}/>
+                        text={sending ? "the file is being sent, please wait..." : sentRequest ? "Wait till user accepts your request" : "receiving file, please wait... "}/>
                     }
                     {rejected &&
                     <UserInfo myUsername={peerUsername}
@@ -199,7 +199,7 @@ function App() {
                 <Columns>
                     <Columns.Column size="three-fifths">
                         <UserInfo myUsername={myUsername}
-                                  subtext="Share your username with others so they can send you a picture"
+                                  subtext="Share your username with others so they can send you a file"
                                   color="#EFFFFF"
                         />
                         <ImageUploader setFile={setFile}/>
