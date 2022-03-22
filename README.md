@@ -21,6 +21,7 @@ you can also run the client or the server independently in dev mode
 ```yarn dev:server```
 
 ## Simulate the multipe-node environment with Docker
+Create an ubuntu virtual machine, install docker and nodejs14, then create 1 server and 3 clients in docker
 (Install docker engine and docker compose before start)
 
 Build the docker images
